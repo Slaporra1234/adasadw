@@ -3,10 +3,10 @@ session_start();
 require_once 'conexao.php';
 
 // Configurações de email (substitua com suas credenciais reais)
-define('SMTP_HOST', 'smtp.seuprovedor.com');
-define('SMTP_USERNAME', 'diego_florentino@estudante.sesisenai.org.br');
-define('SMTP_PASSWORD', 'Semsenha1877');
-define('SMTP_FROM', 'nao-responda@marketplace.com');
+define('SMTP_HOST', 'smtp.gmail.com');
+define('SMTP_USERNAME', 'claudinodiego98@gmail.com');
+define('SMTP_PASSWORD', 'cljr ysqh xirl fwyr'); // (coloque aqui a senha de app gerada)
+define('SMTP_FROM', 'claudinodiego98@gmail.com');
 define('SMTP_FROM_NAME', 'ProMarket Brasil');
 
 $msg = '';
